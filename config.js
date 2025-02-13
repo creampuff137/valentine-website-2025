@@ -35,16 +35,16 @@ const CONFIG = {
         third: {
             text: "can I be your valentine tomorrow, at Feb 14?", // The big question!
             yesBtn: "Yep",                                             // Text for "Yes" button
-            noBtn: "No (lol haha awit)"                                                 // Text for "No" button
+            noBtn: "No (lol, haha.)"                                                 // Text for "No" button
         }
     },
 
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "really? no joke?",  // Shows when they go past 5000%
+        extreme: "REALLY? I'M SO LUCKY",  // Shows when they go past 5000%
         high: "weh ba",              // Shows when they go past 1000%
-        normal: "I like u 2"                           // Shows when they go past 100%
+        normal: "I like you too, I guess.."                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
@@ -57,8 +57,8 @@ const CONFIG = {
     // Color scheme for the website
     // Use https://colorhunt.co or https://coolors.co to find beautiful color combinations
     colors: {
-        backgroundStart: "#ffafbd",      // Gradient start (try pastel colors for a soft look)
-        backgroundEnd: "#ffc3a0",        // Gradient end (should complement backgroundStart)
+        backgroundStart: "#ffc0cb",      // Gradient start (try pastel colors for a soft look)
+        backgroundEnd: "#ff00ff",        // Gradient end (should complement backgroundStart)
         buttonBackground: "#ff6b6b",     // Button color (should stand out against the background)
         buttonHover: "#ff8787",          // Button hover color (slightly lighter than buttonBackground)
         textColor: "#ff4757"             // Text color (make sure it's readable!)
